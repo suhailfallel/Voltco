@@ -26,6 +26,12 @@
     margin-right: 0;
     margin: 0 10px;
   }
+  .theme-button .default-btn-2 {
+    font-size: 14px;
+    padding: 6px 38px;
+    margin-right: 0;
+    margin: 0 10px;
+  }
   .section-head {
     margin-bottom: 30px;
   }
@@ -1271,7 +1277,7 @@
     padding-left: 0;
   }
   .theme-button .default-btn {
-    margin-right: 5px;
+    margin-right: 0px;
     margin-left: 0;
   }
   .hire-section .container-fluid .col-lg-4 {
@@ -1397,6 +1403,11 @@
   .theme-button .default-btn {
     font-size: 15px;
     padding: 8px 25px;
+    margin-right: 6px;
+  }
+  .theme-button .default-btn-2 {
+    font-size: 15px;
+    padding: 8px 45px;
     margin-right: 6px;
   }
   .section-head {
@@ -2338,6 +2349,9 @@
   }
   .theme-button .default-btn {
     padding: 10px 30px;
+  }
+  .theme-button .default-btn-2 {
+    padding: 10px 50px;
   }
   /* Navbar CSS*/
   .navbar-area .main-nav .navbar .navbar-brand img {

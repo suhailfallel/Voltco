@@ -58,7 +58,7 @@ This files table contents are outlined below>>>>>
 /* Color Variables */
 /* Font-Family Variable */
 body {
-  color: #646464;
+  color:#131A2D;
   font-family: "Poppins";
   line-height: 1.8;
   padding: 0;
@@ -134,7 +134,7 @@ ul li {
 }
 
 p {
-  color: #646464;
+  color: #131A2D;
   line-height: 1.8;
   text-align: justify;
 }
@@ -243,6 +243,19 @@ h3 {
   border: 1px solid #ffffff;
   z-index: 0;
 }
+.theme-button .default-btn-2 {
+  font-size: 15px;
+  color: #ffffff;
+  font-weight: 500;
+  padding: 15px 55px;
+  border-radius: 5px;
+  margin-right: 25px;
+  position: relative;
+  text-transform: capitalize;
+  border: 1px solid #ffffff;
+  z-index: 0;
+}
+
 
 .theme-button .default-btn::before {
   position: absolute;
@@ -290,7 +303,7 @@ h3 {
 }
 .section-head-1 h2 {
   font-size: 40px;
-  color: #111111;
+  color: #131A2D;
   font-weight: 600;
   margin-bottom: 0px;
 }
@@ -424,7 +437,7 @@ h3 {
 .navbar-area .main-nav {
   background: #ffffff;
   padding: 0;
-  position: relative;
+  position: fixed;
   -webkit-transition: .5s;
   transition: .5s;
 }
@@ -572,7 +585,7 @@ h3 {
 }
 
 .is-sticky {
-  position: absolute; !important;
+  position: fixed; !important;
   top: 0 !important;
   left: 0;
   width: 100%;
@@ -686,9 +699,10 @@ h3 {
 }
 
 .home-text {
-  max-width: 740px;
+  max-width: 100%;
   z-index: 1;
   position: relative;
+  text-align: center;
 }
 
 .home-text h1 {
@@ -1854,7 +1868,7 @@ h3 {
   border-top: 0px;
   border-bottom: 0px;
   border-left: 0px;
-  border-right: 100px solid #66c5d6;
+  border-right: 0 solid #66c5d6;
 }
 
 .contact-section .contact-area {
@@ -2092,7 +2106,7 @@ h3 {
 /* Contact CSS End */
 /* Footer CSS Start */
 .footer-area {
-  background: #29292b;
+  background: #131A2D;
   padding-top: 100px;
   position: relative;
   z-index: 1;
@@ -2101,7 +2115,7 @@ h3 {
 .footer-area::before {
   position: absolute;
   content: '';
-  background:#29292b;
+  background:#131A2D;
   background-position: center center;
   background-size: cover;
   width: 100%;
@@ -5055,7 +5069,7 @@ width: 100%;
 }
 
 .main-service-area .service-sidebar .service-list ul li a {
-  color: #646464;
+  color: #131A2D;
   display: block;
 }
 
@@ -5681,7 +5695,7 @@ width: 100%;
 
 .blog-details-area .blog-side-bar .tags a {
   font-size: 14px;
-  color: #646464;
+  color: #131A2D;
   font-weight: 500;
   text-decoration: underline;
   margin-right: 10px;

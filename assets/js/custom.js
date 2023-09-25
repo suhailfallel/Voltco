@@ -43,9 +43,10 @@
         margin:30,
         nav:false,
         smartSpeed:2000,
-        dots:true,
+        dots:false,
         items:1,
         autoplayHoverPause:true,
+        autoplay:true,
         stagePadding:10,
         responsive:{
             0:{
