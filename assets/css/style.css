@@ -435,7 +435,7 @@ h3 {
 /* Header CSS End */
 /* Navbar CSS Start */
 .navbar-area .main-nav {
-  background: #ffffff;
+  background: rgb(255 255 255 / 0%);
   padding: 0;
   position: relative;
   -webkit-transition: .5s;
@@ -456,6 +456,11 @@ h3 {
 
 .navbar-area .main-nav .navbar .navbar-nav .nav-item a {
   color: #29292B;
+  font-weight: 100;
+  text-transform: capitalize;
+}
+.is-sticky.navbar-area .main-nav .navbar .navbar-nav .nav-item a {
+  color: #fff;
   font-weight: 100;
   text-transform: capitalize;
 }
@@ -587,7 +592,7 @@ h3 {
 .is-sticky {
   background-color: #131a2d !important;
   position: fixed !important;
-  top: -1px !important;
+  top: 0px !important;
   left: 0;
   width: 100%;
   z-index: 999;
