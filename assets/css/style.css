@@ -296,7 +296,7 @@ h3 {
 
 .section-head h2 {
   font-size: 40px;
-  color: #111111;
+  color: #131A2D;
   font-weight: 600;
   margin-bottom: 20px;
   line-height: 1.2;
@@ -437,7 +437,7 @@ h3 {
 .navbar-area .main-nav {
   background: #ffffff;
   padding: 0;
-  position: fixed;
+  position: relative;
   -webkit-transition: .5s;
   transition: .5s;
 }
@@ -585,14 +585,14 @@ h3 {
 }
 
 .is-sticky {
-  position: fixed; !important;
-  top: 0 !important;
+  background-color: #131a2d !important;
+  position: fixed !important;
+  top: -1px !important;
   left: 0;
   width: 100%;
   z-index: 999;
   -webkit-box-shadow: 0 2px 28px 0 rgba(0, 0, 0, 0.06);
           box-shadow: 0 2px 28px 0 rgba(0, 0, 0, 0.06);
-  background: #ffffff !important;
   -webkit-animation: 500ms ease-in-out 0s normal none 1 running fadeInDown;
           animation: 500ms ease-in-out 0s normal none 1 running fadeInDown;
   -webkit-transition: 0.6s;
@@ -1774,6 +1774,7 @@ h3 {
           box-shadow: 0px 1px 14px rgba(72, 73, 121, 0.15);
   border-radius: 10px;
   width: 100%;
+  height: 8.5cm;
   margin-bottom: 30px;
 }
 
