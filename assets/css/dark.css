@@ -9,6 +9,9 @@ Default CSS
 }
 
 
+.theme-dark .card__text p{
+  color: #131a2d;
+}
 .switch-box .switch {
   position: relative;
   display: inline-block;
