@@ -13,6 +13,10 @@
     padding-bottom: 50px;
   }
 
+  .fcc-btn{
+    margin-left: 5px;
+  }
+
 .blog-section .blog-area {
   -webkit-box-shadow: 0px 1px 14px rgba(72, 73, 121, 0.15);
           box-shadow: 0px 1px 14px rgba(72, 73, 121, 0.15);
@@ -108,7 +112,7 @@
     display: none;
   }
   .mobile-nav nav .navbar-nav {
-    height: 300px;
+    height: 400px;
     overflow-y: scroll;
   }
   .main-nav {
@@ -1331,7 +1335,7 @@
     left: -15px;
   }
   .contact-section {
-    margin-top: 15px;
+    margin-top: 0px;
   }
   .why-us .why-us-img {
     display: none;
@@ -1400,6 +1404,9 @@
   .ptb-100 {
     padding-top: 70px;
     padding-bottom: 70px;
+  }
+  .fcc-btn{
+    margin-left: 5px;
   }
   p {
     font-size: 14px !important;
@@ -1488,7 +1495,7 @@
     display: none;
   }
   .mobile-nav nav .navbar-nav {
-    height: 300px;
+    height: 400px;
     overflow-y: scroll;
   }
   .main-nav {
